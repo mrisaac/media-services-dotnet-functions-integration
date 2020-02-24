@@ -3,13 +3,13 @@
   "contentVersion": "1.0.0.0",
     "parameters": {
         "appName": {
-            "value": "GEN-UNIQUE"
+            "value": "WestVITestApp"
         },
         "functionKey": {
-            "value" : "GEN-UNIQUE"
+            "value" : "opejvwivn4ionv24oin24inev89adv"
         },
         "sourceCodeRepositoryURL": {
-            "value": "ENTER PATH TO YOUR FORK OF - https://github.com/Azure-Samples/media-services-dotnet-functions-integration"
+            "value": "https://github.com/kenhausman/media-services-dotnet-functions-integration/"
         },
         "sourceCodeBranch": {
             "value": "master"
