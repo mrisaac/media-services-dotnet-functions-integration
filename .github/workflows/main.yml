@@ -47,7 +47,7 @@ jobs:
         app-name: fxn-mediaservices-ingestnxvqeg7thlwpa
         # If your function app project is not located in your repository's root
         # Please consider prefixing the project path in this package parameter
-        package: './output'
+        package: './100-basic-encoding/output'
         # If you want to use publish profile credentials instead of Azure Service Principal
         # Please uncomment the following line
         publish-profile: ${{ secrets.SCM_CREDENTIALS }}
