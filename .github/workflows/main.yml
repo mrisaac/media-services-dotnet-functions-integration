@@ -5,7 +5,7 @@
 # 3. Add this yaml file to your project's .github/workflows/
 # 4. Push your local project to your GitHub Repository
 
-name: Windows_Dotnet_Workflow
+name: 100-basic-encoding-workflow
 
 on:
   push:
@@ -36,7 +36,7 @@ jobs:
       run: |
         # If your function app project is not located in your repository's root
         # Please change your directory for dotnet build in pushd
-        pushd .
+        pushd 100-basic-encoding
         dotnet build --configuration Release --output ./output
         popd
 
